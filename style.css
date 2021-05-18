@@ -1,0 +1,307 @@
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+/* menu */
+.logo{
+    float: left;
+    width: 30%;
+    line-height: 100px;
+}
+.logo img{
+    width: 100px;
+    max-width: 100%;
+}
+.menubar{
+    float: right;
+    width: 70%;
+}
+.mainmenu{
+    /* background: yellow; */
+    height: 100px;
+    overflow: hidden;
+}
+.menubar ul{
+    text-align: right;
+}
+.menubar ul li{
+    display: inline-block;
+}
+.menubar ul li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 10px;
+    line-height: 56px;
+    font-size: 20px;
+    color: #000;
+    font-weight: 600;
+}
+/* banner */
+.banner {
+    background-image: url("https://sjoerel.files.wordpress.com/2013/07/it-banner-img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    text-align: center;
+    padding: 150px 0 180px 0px;
+    color: #fff;
+}
+.banner p{
+    font-size: 23px;
+}
+.banner h2 {
+    font-size: 56px;
+    font-weight: bold;
+}
+.button{
+    padding-top: 30px;
+}
+.google::before{
+    content: '\f3ab';
+    font-family: "Font Awesome 5 Brands";
+    display: inline-block;
+    margin-right: 5px;
+}
+.apple::before{
+    content: "\f179";
+    font-family: "Font Awesome 5 Brands";
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 5px;
+}
+.google {
+    text-decoration: none;
+    padding: 15px 20px;
+    background: #fff;
+    color: rgb(121, 118, 118);
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.apple{
+    padding: 15px 20px;
+    background: #fff;
+    color: rgb(121, 118, 118);
+    border-radius: 5px;
+    font-weight: bold;
+}
+/* content */
+.content{
+    background: #f7f7f7;
+}
+.part1{
+    text-align: center;
+    padding: 50px 0;
+}
+.part1 h3 {
+    font-size: 50px;
+    font-weight: bold;
+}
+.part1 p {
+    font-weight: 600;
+}
+
+.doller{
+    background: #f7f7f7;
+    margin: 15px 0;
+    padding: 5px;
+}
+.doller h2{
+    font-weight: bolder;
+}
+sub{
+    font-size: 15px;
+    font-weight: bolder;
+}
+.down ul{
+    list-style: none;
+}
+.down ul li {
+    display: block;
+    padding: 15px;
+    font-size: 18px;
+    color: rgb(161, 158, 158);
+    font-weight: 600;
+}
+.left{
+    float: left;
+    width: 25%;
+    margin-left: 8%;
+    background: #fff;
+    /* padding: 20px; */
+}
+.center{
+    float: left;
+    width: 25%;
+    margin-left: 4%;
+    background: #fff;
+    /* padding: 20px; */
+}
+.right{
+    float: left;
+    width: 25%;
+    margin-left: 4%;
+    background: #fff;
+    /* padding: 20px; */
+}
+.up{
+    padding: 20px;
+    border-bottom: 1px solid #666464;
+}
+.gun::before{
+    content: "\f00d";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    display: inline-block;
+    color: #e79230;
+    margin-right: 10px;
+}
+.tik::before{
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    display: inline-block;
+    color: #e79230;
+    margin-right: 10px;
+}
+.getfreenow{
+    text-align: center;
+    padding: 30px 0;
+}
+.getfreenow a{
+    display: inline-block;
+    padding: 15px 20px;
+    color: rgb(121, 118, 118);
+    background: rgb(243, 243, 243);
+    text-align: center;font-weight: bold;
+    box-shadow: 5px 5px 7px #96a4d4;
+}
+.part2{
+    padding-bottom: 50px;
+}
+/* team */
+.teamup {
+    text-align: center;
+    padding: 50px 0;
+}
+.team{
+    margin-bottom: 80px;
+}
+.teamdown img{
+    max-width: 100%;
+    width: 200px;
+    height: 200px;
+}
+.jasondoe{
+    float: left;
+    width: 15%;
+    border: 1px #eaa04b;
+    border-style: double;
+    margin-left: 200px;
+    box-shadow: 5px 5px 7px #96a4d4;
+}
+.amanda{
+    float: left;
+    width: 15%;
+    border: 1px #eaa04b;
+    border-style: double;
+    box-shadow: 5px 5px 7px #96a4d4;
+}
+.andrew{
+    float: left;
+    width: 15%;
+    border: 1px #eaa04b;
+    border-style: double;
+    box-shadow: 5px 5px 7px #96a4d4;
+}
+.jane{
+    float: left;
+    width: 15%;
+    border: 1px #eaa04b;
+    border-style: double;
+    box-shadow: 5px 5px 7px #96a4d4;
+}
+.member {
+    margin-left: 40px;
+}
+/* formdiv */
+.formdiv{
+    background: #f5f5f5;
+    padding: 80px 0;
+}
+.fixwidth{
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}
+.fixwidth p{
+    font-weight: bold;
+}
+.fixwidth h2{
+    font-size: 45px;
+}
+.first{
+    width: 400px;
+    display: inline-block;
+    border: 3px solid #dee397;
+    font-size: 18px;
+    font-weight: bold;
+}
+form{
+    text-align: center;
+    padding-top: 30px;
+}
+.btn {
+    background: #aa972c;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+/* choose */
+.choose{
+}
+.choose h1 {
+    text-align: center;
+    font-size: 42px;
+}
+.details{
+    width: 1000px;
+    margin: auto;
+    margin-top: 30px;
+}
+.detailleft{
+    float: left;
+    width: 40%;
+}
+.detailright {
+    float: right;
+    width: 60%;
+    padding-top: 27px;
+}
+.detailright h4{
+    font-size: 18px;
+}
+.detailright p{
+    font-size: 15px;
+}
+/* about */
+.about{
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    padding: 60px 0;
+}
+/* .name{
+    width: 290px;
+}
+.number{
+    width: 290px;
+} */
+.footer{
+    text-align: center;
+    padding: 20px 0;
+    font-weight: bold;
+}
